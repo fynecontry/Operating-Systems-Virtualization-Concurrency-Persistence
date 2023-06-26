@@ -18,7 +18,7 @@ MLFQ is interesting for the following reason: instead of demanding a priori know
 
 
 ## Simulator
-Using the provided [mlfq.py](https://github.com/fynecontry/Operating-Systems-Virtualization-Concurrency-Persistence/blob/main/virtualization/multi_level_feedback/scheduler.py) answer the following questions.
+Using the provided [mlfq.py](https://github.com/fynecontry/Operating-Systems-Virtualization-Concurrency-Persistence/blob/main/virtualization/multi_level_feedback/mlfq.py) answer the following questions.
 
 ### 1. Run a few randomly-generated problems with just two jobs and two queues; compute the MLFQ execution trace for each. Make your life easier by limiting the length of each job and turning off I/Os.
 ```
