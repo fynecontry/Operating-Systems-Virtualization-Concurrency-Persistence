@@ -7,7 +7,7 @@ No scheduler is a panacea, and fair-share schedulers have their fair share of pr
 The good news is that there are many domains in which these problems are not the dominant concern, and proportional-share schedulers are used to great effect. For example, in a virtualized data center (or cloud), where you might like to assign one-quarter of your CPU cycles to the Windows VM and the rest to your base Linux installation, proportional sharing can be simple and effective. The idea can also be extended to other resources; see Waldspurger for further details on how to proportionally share memory in VMWare’s ESX Server.
 
 ## Simulator
-Using the provided [mlfq.py](https://github.com/fynecontry/Operating-Systems-Virtualization-Concurrency-Persistence/blob/main/virtualization/lottery_scheduling/lottery.py) answer the following questions.
+Using the provided [lottery.py](https://github.com/fynecontry/Operating-Systems-Virtualization-Concurrency-Persistence/blob/main/virtualization/lottery_scheduling/lottery.py) answer the following questions.
 
 #### 1. Compute the solutions for simulations with 3 jobs and random seeds of 1, 2, and 3.
 ```
