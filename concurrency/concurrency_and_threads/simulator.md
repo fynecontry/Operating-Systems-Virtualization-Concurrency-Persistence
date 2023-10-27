@@ -1,5 +1,5 @@
 # Simulator
-Using the provided [x86.py](https://github.com/fynecontry/Operating-Systems-Virtualization-Concurrency-Persistence/blob/main/virtualization/cpu_scheduling/scheduler.py) allows you to see how different thread interleavings either cause or avoid race conditions. Answer the following questions.
+Using the provided [x86.py](https://github.com/fynecontry/Operating-Systems-Virtualization-Concurrency-Persistence/blob/main/concurrency/concurrency_and_threads/x86.py) allows you to see how different thread interleavings either cause or avoid race conditions. Answer the following questions.
 
 #### 1. Let’s examine a simple program, “loop.s”. First, just read and understand it. Then, run it with these arguments (`./x86.py -p loop.s -t 1 -i 100 -R dx`) This specifies a single thread, an interrupt every 100 instructions and tracing of register `%dx`. What will `%dx` be during the run?
 ```
